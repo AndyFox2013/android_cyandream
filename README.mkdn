@@ -20,3 +20,6 @@ And to start building:
     ./jb-build.sh ace
 
 
+Borrowed a little bit of halo/cm merge code from Cristiano Matos - here at XDA http://forum.xda-developers.com/showthread.php?t=2327519
+
+Also used that code to check my own merging of the code to see how i'd done ;)
