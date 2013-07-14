@@ -14,10 +14,15 @@ To initialize your local repository using the CyanogenMod trees, use a command l
 Then to sync up:
 
     repo sync
+    
+Then get prebuilts:
+
+    cd vendor/cm
+    ./get-prebuilts
 
 And to start building:
 
-    ./jb-build.sh ace
+    . build.envsetup.sh && brunch ace
 
 
 Borrowed a little bit of halo/cm merge code from Cristiano Matos - here at XDA http://forum.xda-developers.com/showthread.php?t=2327519
