@@ -378,7 +378,7 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
   
-  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+  <!--remove-project name="CyanogenMod/android_frameworks_opt_telephony" /-->
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
@@ -387,7 +387,7 @@
   <!-- ACE Device Files -->
   <project path="device/htc/ace" name="AndyFox2013/android_device_htc_ace" revision="cm-10.1-rinsem" />
   <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" revision="cm-10.1" />
-  <project path="frameworks/opt/telephony" name="Mustaavalkosta/android_frameworks_opt_telephony" revision="cm-10.1" />
+  <!--project path="frameworks/opt/telephony" name="Mustaavalkosta/android_frameworks_opt_telephony" revision="cm-10.1" /-->
   <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" revision="cm-10.1" />
   <project path="hardware/qcom/media" name="Mustaavalkosta/android_hardware_qcom_media" revision="cm-10.1" />
   <project path="kernel/htc/rowshow7x30" name="yanniks/RowShow-7x30" revision="rowshow" />
