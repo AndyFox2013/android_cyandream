@@ -385,7 +385,7 @@
   <remove-project name="platform/prebuilts/misc" />
 
   <!-- ACE Device Files -->
-  <project path="device/htc/ace" name="AndyFox2013/android_device_htc_ace" revision="cm-10.1-rinsem" />
+  <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" revision="cm-10.1" />
   <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" revision="cm-10.1" />
   <!--project path="frameworks/opt/telephony" name="Mustaavalkosta/android_frameworks_opt_telephony" revision="cm-10.1" /-->
   <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" revision="cm-10.1" />
