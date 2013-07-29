@@ -22,7 +22,13 @@ Then get prebuilts:
 
 And to start building:
 
-    . build.envsetup.sh && brunch ace
+    ./jb-build.sh 
+or
+	. build/envsetup.sh && time brunch *device-name*
+or
+	. build/envsetup-linaro.sh && time brunch *device-name*
+	
+	#Although the linaro script is untested by me so may possible not work#
 
 
 Borrowed a little bit of halo/cm merge code from Cristiano Matos - here at XDA http://forum.xda-developers.com/showthread.php?t=2327519
