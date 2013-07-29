@@ -370,7 +370,8 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="tools/build" name="platform/tools/build" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
   <project path="tools/motodev" name="platform/tools/motodev" remote="aosp" revision="refs/tags/android-4.2.2_r1" />
-  <project path="vendor/cm" name="AndyFox2013/android_vendor_cm" revision="jellybean-cyandream" />
+  <project path="vendor/cm" name="AndyFox2013/android_vendor_cm" revision="jellybean-cyandream"> <copyfile src="build.sh" dest="jb-build.sh" />
+  </project>
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
@@ -389,7 +390,7 @@
   <project path="frameworks/opt/telephony" name="Mustaavalkosta/android_frameworks_opt_telephony" revision="cm-10.1" />
   <project path="hardware/qcom/display" name="Mustaavalkosta/android_hardware_qcom_display" revision="cm-10.1" />
   <project path="hardware/qcom/media" name="Mustaavalkosta/android_hardware_qcom_media" revision="cm-10.1" />
-  <project path="kernel/htc/rowshow7x30" name="yanniks/RowShow-7x30" revision="rowshow" />
+  <project path="kernel/htc/CyanDream7x30" name="AndyFox2013/CyanDream-7x30" revision="rowshow" />
   <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" revision="cm-10.1" />
   <project path="local_manifest" name="Mustaavalkosta/android" revision="cm-10.1" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" revision="master" />
@@ -398,8 +399,8 @@
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" />
   
   <!-- BRAVO Device Files -->
-  <project path="device/htc/bravo" name="AndyFox2013/android_device_htc_bravo" revision="jellybean-4.1.2" />
-  <project path="vendor/htc/bravo" name="AndyFox2013/android_vendor_htc_bravo" revision="jellybean" />
+  <project path="device/htc/bravo" name="AndyFox2013/android_device_htc_bravo" revision="cm-10.1" />
+  <project path="vendor/htc/bravo" name="AndyFox2013/android_vendor_htc_bravo" revision="master" />
   <project path="kernel/htc/bravo-qsd8k" name="AndyFox2013/android_kernel_htc_qsd8k" revision="jellybean-4.1.2" />
   <project path="device/htc/qsd8k-common" name="AndyFox2013/android_device_htc_qsd8k-common" revision="jellybean-4.1.2" />
   
