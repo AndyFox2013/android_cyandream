@@ -402,6 +402,9 @@
   <project path="device/htc/bravo" name="AndyFox2013/android_device_htc_bravo" revision="cm-10.1" />
   <project path="vendor/htc/bravo" name="AndyFox2013/android_vendor_htc_bravo" revision="master" />
   <project path="kernel/htc/bravo-qsd8k" name="AndyFox2013/android_kernel_htc_qsd8k" revision="jellybean-4.1.2" />
-  <project path="device/htc/qsd8k-common" name="AndyFox2013/android_device_htc_qsd8k-common" revision="jellybean-4.1.2" />
+  <project path="device/htc/qsd8k-common" name="AndyFox2013/android_device_htc_qsd8k-common" revision="jellybean-4.1.2" 
+  <project path="hardware/qcom/audio-legacy" name="Evervolv/android_hardware_qcom_audio-legacy" revision="refs/heads/jellybean" />
+  <project path="hardware/qcom/display-legacy" name="Evervolv/android_hardware_qcom_display-legacy" revision="refs/heads/jellybean" />
+  <project path="hardware/qcom/gps-legacy" name="Evervolv/android_hardware_qcom_gps-legacy" revision="refs/heads/jellybean" />/>
   
 </manifest>
