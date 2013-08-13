@@ -1,4 +1,4 @@
-CM10.1 - CyanDrema FOR HTC Desire BRAVO
+CM10.1 - CyanDream FOR HTC Desire BRAVO
 ===========
 
 Getting Started
@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/AndyFox2013/android_cyandream.git -b jellybean
+    repo init -u git://github.com/AndyFox2013/android_cyandream.git -b jellybean-LEGACY
 
 Then to sync up:
 
